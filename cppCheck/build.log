@@ -1,0 +1,27 @@
+REMOVE PREVIOUS BUILD AND ALL INTERMEDIATE GCOV FILES
+BUILDING
+Checking src/Foo.cpp...
+1/4 files checked 7% done
+Checking src/HelloWorld.cpp...
+2/4 files checked 18% done
+Checking src/SimpleClass.cpp...
+3/4 files checked 53% done
+Checking src/SimpleClass2.cpp...
+4/4 files checked 100% done
+Running SonarQube analysis
+INFO: Scanner configuration file: /Users/Olivier/sq/sonar-scanner-2.6/conf/sonar-scanner.properties
+INFO: Project root configuration file: /Users/Olivier/test/cppCheck/sonar-project.properties
+INFO: SonarQube Scanner 2.6
+INFO: Java 1.8.0_60 Oracle Corporation (64-bit)
+INFO: Mac OS X 10.11.5 x86_64
+INFO: SONAR_SCANNER_OPTS=-Xms1024m -Xmx4g
+INFO: User cache: /Users/Olivier/.sonar/cache
+DEBUG: Extract sonar-scanner-api-batch in temp...
+DEBUG: Get bootstrap index...
+DEBUG: Download: http://localhost:9000/batch_bootstrap/index
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 0.270s
+INFO: Final Memory: 7M/981M
+INFO: ------------------------------------------------------------------------

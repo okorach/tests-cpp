@@ -1,0 +1,721 @@
+14:34:13.120 INFO: Scanner configuration file: /Users/Olivier/sq/sonar-scanner-4.6.2.2472/conf/sonar-scanner.properties
+14:34:13.124 INFO: Project root configuration file: /Users/Olivier/dev/tests/cpp-scan/sonar-project.properties
+14:34:13.155 INFO: SonarScanner 4.6.2.2472
+14:34:13.155 INFO: Java 11.0.12 Homebrew (64-bit)
+14:34:13.155 INFO: Mac OS X 11.6 x86_64
+14:34:13.155 INFO: SONAR_SCANNER_OPTS=-Dsonar.login= -Dsonar.host.url=http://localhost:9999
+14:34:13.304 DEBUG: keyStore is : 
+14:34:13.304 DEBUG: keyStore type is : pkcs12
+14:34:13.304 DEBUG: keyStore provider is : 
+14:34:13.304 DEBUG: init keystore
+14:34:13.305 DEBUG: init keymanager of type SunX509
+14:34:13.440 DEBUG: Create: /Users/Olivier/.sonar/cache
+14:34:13.442 INFO: User cache: /Users/Olivier/.sonar/cache
+14:34:13.442 DEBUG: Create: /Users/Olivier/.sonar/cache/_tmp
+14:34:13.444 DEBUG: Extract sonar-scanner-api-batch in temp...
+14:34:13.449 DEBUG: Get bootstrap index...
+14:34:13.449 DEBUG: Download: http://localhost:9999/batch/index
+14:34:13.514 DEBUG: Get bootstrap completed
+14:34:13.518 DEBUG: Create isolated classloader...
+14:34:13.526 DEBUG: Start temp cleaning...
+14:34:13.534 DEBUG: Temp cleaning done
+14:34:13.534 INFO: Scanner configuration file: /Users/Olivier/sq/sonar-scanner-4.6.2.2472/conf/sonar-scanner.properties
+14:34:13.535 INFO: Project root configuration file: /Users/Olivier/dev/tests/cpp-scan/sonar-project.properties
+14:34:13.536 DEBUG: Execution getVersion
+14:34:13.555 INFO: Analyzing on SonarQube server 9.1.0
+14:34:13.555 INFO: Default locale: "en_CH", source code encoding: "UTF-8"
+14:34:13.556 DEBUG: Work directory: /Users/Olivier/dev/tests/cpp-scan/.scannerwork
+14:34:13.557 DEBUG: Execution execute
+14:34:13.814 DEBUG: Enterprise 9.1.0.47736
+14:34:14.041 INFO: Load global settings
+14:34:14.180 DEBUG: GET 200 http://localhost:9999/api/settings/values.protobuf | time=137ms
+14:34:14.220 INFO: Load global settings (done) | time=179ms
+14:34:14.226 INFO: Server id: B40A8E55-AWOxMI1ddSkf4BExMG4d
+14:34:14.237 INFO: User cache: /Users/Olivier/.sonar/cache
+14:34:14.242 INFO: Load/download plugins
+14:34:14.242 INFO: Load plugins index
+14:34:14.293 DEBUG: GET 200 http://localhost:9999/api/plugins/installed | time=51ms
+14:34:14.338 INFO: Load plugins index (done) | time=96ms
+14:34:14.651 INFO: Load/download plugins (done) | time=409ms
+14:34:14.863 DEBUG: Plugins:
+14:34:14.864 DEBUG:   * CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+14:34:14.864 DEBUG:   * PL/SQL Code Quality and Security 3.6.1.3873 (plsql)
+14:34:14.864 DEBUG:   * Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+14:34:14.864 DEBUG:   * C# Code Quality and Security 8.29.0.36737 (csharp)
+14:34:14.864 DEBUG:   * Vulnerability Analysis 9.1.0.13548 (security)
+14:34:14.864 DEBUG:   * Java Code Quality and Security 7.3.0.27589 (java)
+14:34:14.864 DEBUG:   * HTML Code Quality and Security 3.4.0.2754 (web)
+14:34:14.864 DEBUG:   * Flex Code Quality and Security 2.6.2.2641 (flex)
+14:34:14.865 DEBUG:   * XML Code Quality and Security 2.3.0.3155 (xml)
+14:34:14.865 DEBUG:   * VB.NET Code Quality and Security 8.29.0.36737 (vbnet)
+14:34:14.865 DEBUG:   * Swift Code Quality and Security 4.3.2.5043 (swift)
+14:34:14.865 DEBUG:   * CFamily Code Quality and Security 6.26.0.36731 (cpp)
+14:34:14.865 DEBUG:   * Python Code Quality and Security 3.6.0.8488 (python)
+14:34:14.865 DEBUG:   * Go Code Quality and Security 1.8.3.2219 (go)
+14:34:14.865 DEBUG:   * JaCoCo 1.1.1.1157 (jacoco)
+14:34:14.865 DEBUG:   * Kotlin Code Quality and Security 2.2.0.499 (kotlin)
+14:34:14.865 DEBUG:   * RPG Code Quality 3.0.1.2837 (rpg)
+14:34:14.865 DEBUG:   * PL/I Code Quality and Security 1.11.1.2727 (pli)
+14:34:14.865 DEBUG:   * T-SQL Code Quality and Security 1.5.1.4340 (tsql)
+14:34:14.866 DEBUG:   * VB6 Code Quality and Security 2.7.1.2721 (vb)
+14:34:14.866 DEBUG:   * Apex Code Quality and Security 1.8.3.2219 (sonarapex)
+14:34:14.866 DEBUG:   * JavaScript/TypeScript Code Quality and Security 8.4.0.16431 (javascript)
+14:34:14.866 DEBUG:   * Ruby Code Quality and Security 1.8.3.2219 (ruby)
+14:34:14.866 DEBUG:   * Vulnerability Rules for C# 9.1.0.13548 (securitycsharpfrontend)
+14:34:14.866 DEBUG:   * Vulnerability Rules for Java 9.1.0.13548 (securityjavafrontend)
+14:34:14.866 DEBUG:   * License for SonarLint 9.1.0.47736 (license)
+14:34:14.866 DEBUG:   * Vulnerability Rules for JS 9.1.0.13548 (securityjsfrontend)
+14:34:14.866 DEBUG:   * COBOL Code Quality 4.6.2.4876 (cobol)
+14:34:14.867 DEBUG:   * Vulnerability Rules for Python 9.1.0.13548 (securitypythonfrontend)
+14:34:14.867 DEBUG:   * PHP Code Quality and Security 3.20.0.8080 (php)
+14:34:14.867 DEBUG:   * ABAP Code Quality and Security 3.9.1.3127 (abap)
+14:34:14.867 DEBUG:   * Vulnerability Rules for PHP 9.1.0.13548 (securityphpfrontend)
+14:34:14.911 INFO: Loaded core extensions: developer-scanner
+14:34:14.928 DEBUG: Installed core extension: developer-scanner
+14:34:15.472 INFO: Process project properties
+14:34:15.481 INFO: Process project properties (done) | time=9ms
+14:34:15.482 INFO: Execute project builders
+14:34:15.482 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+14:34:15.483 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+14:34:15.484 INFO: Execute project builders (done) | time=1ms
+14:34:15.486 INFO: Project key: training:cpp-scan
+14:34:15.486 INFO: Base dir: /Users/Olivier/dev/tests/cpp-scan
+14:34:15.486 INFO: Working dir: /Users/Olivier/dev/tests/cpp-scan/.scannerwork
+14:34:15.486 DEBUG: Project global encoding: UTF-8, default locale: en_CH
+14:34:15.492 DEBUG: Creating module hierarchy
+14:34:15.492 DEBUG:   Init module 'Training: C++ scan with build wrapper'
+14:34:15.493 DEBUG:     Base dir: /Users/Olivier/dev/tests/cpp-scan
+14:34:15.493 DEBUG:     Working dir: /Users/Olivier/dev/tests/cpp-scan/.scannerwork
+14:34:15.493 DEBUG:     Module global encoding: UTF-8, default locale: en_CH
+14:34:15.667 INFO: Load project settings for component key: 'training:cpp-scan'
+14:34:15.712 DEBUG: GET 200 http://localhost:9999/api/settings/values.protobuf?component=training%3Acpp-scan | time=45ms
+14:34:15.714 INFO: Load project settings for component key: 'training:cpp-scan' (done) | time=47ms
+14:34:15.723 INFO: Load project branches
+14:34:15.739 DEBUG: GET 200 http://localhost:9999/api/project_branches/list?project=training%3Acpp-scan | time=13ms
+14:34:15.749 INFO: Load project branches (done) | time=26ms
+14:34:15.751 INFO: Load project pull requests
+14:34:15.760 DEBUG: GET 200 http://localhost:9999/api/project_pull_requests/list?project=training%3Acpp-scan | time=8ms
+14:34:15.763 INFO: Load project pull requests (done) | time=12ms
+14:34:15.763 INFO: Load branch configuration
+14:34:15.764 INFO: Load branch configuration (done) | time=1ms
+14:34:15.801 DEBUG: Available languages:
+14:34:15.801 DEBUG:   * CSS => "css"
+14:34:15.801 DEBUG:   * PL/SQL => "plsql"
+14:34:15.801 DEBUG:   * Scala => "scala"
+14:34:15.802 DEBUG:   * C# => "cs"
+14:34:15.802 DEBUG:   * Java => "java"
+14:34:15.802 DEBUG:   * HTML => "web"
+14:34:15.802 DEBUG:   * JSP => "jsp"
+14:34:15.802 DEBUG:   * Flex => "flex"
+14:34:15.802 DEBUG:   * XML => "xml"
+14:34:15.802 DEBUG:   * VB.NET => "vbnet"
+14:34:15.802 DEBUG:   * Swift => "swift"
+14:34:15.802 DEBUG:   * C => "c"
+14:34:15.802 DEBUG:   * C++ => "cpp"
+14:34:15.803 DEBUG:   * Objective-C => "objc"
+14:34:15.803 DEBUG:   * Python => "py"
+14:34:15.803 DEBUG:   * Go => "go"
+14:34:15.803 DEBUG:   * Kotlin => "kotlin"
+14:34:15.803 DEBUG:   * RPG => "rpg"
+14:34:15.803 DEBUG:   * PL/I => "pli"
+14:34:15.803 DEBUG:   * T-SQL => "tsql"
+14:34:15.803 DEBUG:   * Vb => "vb"
+14:34:15.803 DEBUG:   * Apex => "apex"
+14:34:15.803 DEBUG:   * JavaScript => "js"
+14:34:15.803 DEBUG:   * TypeScript => "ts"
+14:34:15.803 DEBUG:   * Ruby => "ruby"
+14:34:15.803 DEBUG:   * COBOL => "cobol"
+14:34:15.803 DEBUG:   * PHP => "php"
+14:34:15.804 DEBUG:   * ABAP => "abap"
+14:34:15.817 INFO: Load quality profiles
+14:34:15.861 DEBUG: GET 200 http://localhost:9999/api/qualityprofiles/search.protobuf?project=training%3Acpp-scan | time=43ms
+14:34:15.883 INFO: Load quality profiles (done) | time=66ms
+14:34:15.890 INFO: Load active rules
+14:34:16.039 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWW0J-TeDGCkxcNTuo2k&ps=500&p=1 | time=149ms
+14:34:16.205 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWfRHNvX--kLd6uchzFb&ps=500&p=1 | time=21ms
+14:34:16.218 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWjmSHXB5wcuuBDEIQSH&ps=500&p=1 | time=9ms
+14:34:16.274 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIbGcpody7YnNo8spE1&ps=500&p=1 | time=56ms
+14:34:16.344 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWQc0wTE-OPYhocP7Azv&ps=500&p=1 | time=45ms
+14:34:16.377 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWfRHNze--kLd6uchzGY&ps=500&p=1 | time=19ms
+14:34:16.418 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxtJFG18eMl-Qhm1&ps=500&p=1 | time=38ms
+14:34:16.565 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxvjFG18eMl-QhtQ&ps=500&p=1 | time=140ms
+14:34:16.609 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxzUFG18eMl-Qh0X&ps=500&p=1 | time=21ms
+14:34:16.630 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIbGc8jdy7YnNo8spQm&ps=500&p=1 | time=19ms
+14:34:16.647 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWRFkSKh-OPYhocP7BYD&ps=500&p=1 | time=15ms
+14:34:16.687 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOx48FG18eMl-Qh48&ps=500&p=1 | time=39ms
+14:34:16.718 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOx77FG18eMl-Qh8N&ps=500&p=1 | time=27ms
+14:34:16.830 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxhxFG18eMl-QhYu&ps=500&p=1 | time=110ms
+14:34:16.893 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxkRFG18eMl-Qhd_&ps=500&p=1 | time=53ms
+14:34:16.913 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWLTjuT7TlpVjl__lNyc&ps=500&p=1 | time=15ms
+14:34:16.943 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWVCHOGLpQMl37InMwP9&ps=500&p=1 | time=29ms
+14:34:16.965 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxlzFG18eMl-Qhgr&ps=500&p=1 | time=20ms
+14:34:16.988 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxrwFG18eMl-Qhkz&ps=500&p=1 | time=22ms
+14:34:17.023 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxoDFG18eMl-Qhi_&ps=500&p=1 | time=34ms
+14:34:17.044 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXgXjpY7Ho4NP2BnS3pp&ps=500&p=1 | time=19ms
+14:34:17.060 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWbUoxb7qTdFZOuPCaIP&ps=500&p=1 | time=15ms
+14:34:17.148 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIbGczwdy7YnNo8spMl&ps=500&p=1 | time=87ms
+14:34:17.189 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOxyCFG18eMl-Qhy_&ps=500&p=1 | time=36ms
+14:34:17.267 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=php-php-olivier-76841&ps=500&p=1 | time=76ms
+14:34:17.295 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOx6oFG18eMl-Qh6d&ps=500&p=1 | time=24ms
+14:34:17.353 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIKOx8-FG18eMl-Qh--&ps=500&p=1 | time=57ms
+14:34:17.408 DEBUG: GET 200 http://localhost:9999/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AWIbGdHzdy7YnNo8spWX&ps=500&p=1 | time=52ms
+14:34:17.429 INFO: Load active rules (done) | time=1539ms
+14:34:17.456 WARN: SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+14:34:17.497 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+14:34:17.497 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+14:34:17.498 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+14:34:17.498 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs,**/*.csx
+14:34:17.498 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+14:34:17.498 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+14:34:17.499 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+14:34:17.499 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+14:34:17.499 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+14:34:17.499 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+14:34:17.499 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+14:34:17.500 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+14:34:17.500 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+14:34:17.500 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+14:34:17.500 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+14:34:17.501 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+14:34:17.501 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+14:34:17.501 DEBUG: Declared extensions of language RPG were converted to sonar.lang.patterns.rpg : **/*.rpg,**/*.rpgle,**/*.sqlrpgle,**/*.rpg,**/*.rpgle,**/*.sqlrpgle
+14:34:17.501 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
+14:34:17.501 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+14:34:17.502 DEBUG: Declared extensions of language Vb were converted to sonar.lang.patterns.vb : **/*.vb,**/*.bas,**/*.frm,**/*.ctl,**/*.vb,**/*.bas,**/*.frm,**/*.ctl
+14:34:17.502 DEBUG: Declared extensions of language Apex were converted to sonar.lang.patterns.apex : **/*.cls,**/*.trigger
+14:34:17.502 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.mjs,**/*.vue
+14:34:17.502 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+14:34:17.503 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+14:34:17.503 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : 
+14:34:17.503 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+14:34:17.503 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+14:34:17.504 DEBUG: Will ignore generated code
+14:34:17.504 DEBUG: Will ignore generated code
+14:34:17.507 INFO: Indexing files...
+14:34:17.507 INFO: Project configuration:
+14:34:17.518 DEBUG: 'src/SimpleClass.cpp' indexed with language 'cpp'
+14:34:17.529 DEBUG: 'src/BiggestUnInt.cpp' indexed with language 'cpp'
+14:34:17.531 DEBUG: 'src/HelloWorld.cpp' indexed with language 'cpp'
+14:34:17.538 INFO: 3 files indexed
+14:34:17.538 INFO: Quality profile for cpp: Sonar way
+14:34:17.539 INFO: ------------- Run sensors on module Training: C++ scan with build wrapper
+14:34:17.712 INFO: Load metrics repository
+14:34:17.720 DEBUG: GET 200 http://localhost:9999/api/metrics/search?ps=500&p=1 | time=6ms
+14:34:17.728 INFO: Load metrics repository (done) | time=17ms
+14:34:19.364 DEBUG: Adding rules for repository 'jssecurity', language: JAVASCRIPT, [class com.sonar.security.frontend.js.rules.DomOpenRedirectCheck, class com.sonar.security.frontend.js.rules.DomXssCheck, class com.sonar.security.frontend.js.rules.DynamicCodeExecutionCheck, class com.sonar.security.frontend.js.rules.FilePathInjectionCheck, class com.sonar.security.frontend.js.rules.HttpRedirectionCheck, class com.sonar.security.frontend.js.rules.NoSQLInjectionCheck, class com.sonar.security.frontend.js.rules.OSArgumentInjectionCheck, class com.sonar.security.frontend.js.rules.OSCommandInjectionCheck, class com.sonar.security.frontend.js.rules.ReflectedXssCheck, class com.sonar.security.frontend.js.rules.RegularExpressionDoSCheck, class com.sonar.security.frontend.js.rules.ServerSideRequestCheck, class com.sonar.security.frontend.js.rules.SQLInjectionCheck, class com.sonar.security.frontend.js.rules.ZipSlipCheck] from com.sonar.security.frontend.js.D
+14:34:19.371 DEBUG: Adding rules for repository 'tssecurity', language: TYPESCRIPT, [class com.sonar.security.frontend.js.rules.DomOpenRedirectCheck, class com.sonar.security.frontend.js.rules.DomXssCheck, class com.sonar.security.frontend.js.rules.DynamicCodeExecutionCheck, class com.sonar.security.frontend.js.rules.FilePathInjectionCheck, class com.sonar.security.frontend.js.rules.HttpRedirectionCheck, class com.sonar.security.frontend.js.rules.NoSQLInjectionCheck, class com.sonar.security.frontend.js.rules.OSArgumentInjectionCheck, class com.sonar.security.frontend.js.rules.OSCommandInjectionCheck, class com.sonar.security.frontend.js.rules.ReflectedXssCheck, class com.sonar.security.frontend.js.rules.RegularExpressionDoSCheck, class com.sonar.security.frontend.js.rules.ServerSideRequestCheck, class com.sonar.security.frontend.js.rules.SQLInjectionCheck, class com.sonar.security.frontend.js.rules.ZipSlipCheck] from com.sonar.security.frontend.js.B
+14:34:20.030 DEBUG: 'JavaSensor' skipped because there is no related file in current project
+14:34:20.031 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+14:34:20.031 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+14:34:20.031 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+14:34:20.032 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+14:34:20.032 DEBUG: 'PL/SQL Sensor' skipped because there is no related file in current project
+14:34:20.033 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+14:34:20.033 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+14:34:20.034 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+14:34:20.034 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+14:34:20.034 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+14:34:20.034 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+14:34:20.035 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+14:34:20.035 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+14:34:20.035 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+14:34:20.036 DEBUG: 'Flex' skipped because there is no related file in current project
+14:34:20.036 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+14:34:20.036 DEBUG: 'XML Sensor' skipped because there is no related file in current project
+14:34:20.036 DEBUG: 'Swift Code Quality and Security' skipped because there is no related file in current project
+14:34:20.036 DEBUG: 'Import of SwiftLint issues' skipped because there is no related file in current project
+14:34:20.037 DEBUG: 'gcov' skipped because one of the required properties is missing
+14:34:20.037 DEBUG: 'llvm-cov' skipped because one of the required properties is missing
+14:34:20.037 DEBUG: 'cppunit' skipped because one of the required properties is missing
+14:34:20.038 DEBUG: 'VisualStudioCoverage' skipped because one of the required properties is missing
+14:34:20.038 DEBUG: 'bullseye' skipped because one of the required properties is missing
+14:34:20.038 DEBUG: 'Python Sensor' skipped because there is no related file in current project
+14:34:20.038 DEBUG: 'Cobertura Sensor for Python coverage' skipped because there is no related file in current project
+14:34:20.038 DEBUG: 'PythonXUnitSensor' skipped because there is no related file in current project
+14:34:20.039 DEBUG: 'Import of Pylint issues' skipped because there is no related file in current project
+14:34:20.039 DEBUG: 'Import of Bandit issues' skipped because there is no related file in current project
+14:34:20.039 DEBUG: 'Import of Flake8 issues' skipped because there is no related file in current project
+14:34:20.039 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+14:34:20.040 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+14:34:20.040 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+14:34:20.041 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+14:34:20.041 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+14:34:20.041 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+14:34:20.041 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+14:34:20.041 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+14:34:20.041 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+14:34:20.041 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+14:34:20.042 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+14:34:20.042 DEBUG: 'Import of ktlint issues' skipped because there is no related file in current project
+14:34:20.042 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+14:34:20.042 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+14:34:20.042 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+14:34:20.043 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+14:34:20.043 DEBUG: 'Apex Sensor' skipped because there is no related file in current project
+14:34:20.043 DEBUG: 'Test coverage Sensor for Apex' skipped because there is no related file in current project
+14:34:20.043 DEBUG: 'Import of PMD issues' skipped because there is no related file in current project
+14:34:20.044 DEBUG: 'JavaScript analysis' skipped because there is no related file in current project
+14:34:20.044 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
+14:34:20.044 DEBUG: 'JavaScript/TypeScript Coverage' skipped because there is no related file in current project
+14:34:20.045 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+14:34:20.045 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+14:34:20.045 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+14:34:20.045 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+14:34:20.045 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+14:34:20.046 DEBUG: 'Python HTML templates processing' skipped because there is no related file in current project
+14:34:20.046 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+14:34:20.046 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+14:34:20.046 DEBUG: 'Import of PHPStan issues' skipped because there is no related file in current project
+14:34:20.046 DEBUG: 'Import of Psalm issues' skipped because there is no related file in current project
+14:34:20.047 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+14:34:20.051 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+14:34:20.051 DEBUG: Sensors : CSS Rules -> C# Project Type Information -> C# Analysis Log -> C# Properties -> JavaXmlSensor -> HTML -> VB.NET Project Type Information -> VB.NET Analysis Log -> VB.NET Properties -> JaCoCo XML Report Importer -> ThymeLeaf template sensor -> Serverless configuration file sensor -> AWS SAM template file sensor -> CFamily -> JavaSecuritySensor -> CSharpSecuritySensor -> PhpSecuritySensor -> PythonSecuritySensor -> JsSecuritySensor
+14:34:20.055 INFO: Sensor CSS Rules [cssfamily]
+14:34:20.056 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+14:34:20.056 INFO: Sensor CSS Rules [cssfamily] (done) | time=1ms
+14:34:20.056 INFO: Sensor C# Project Type Information [csharp]
+14:34:20.056 INFO: Sensor C# Project Type Information [csharp] (done) | time=0ms
+14:34:20.056 INFO: Sensor C# Analysis Log [csharp]
+14:34:20.075 DEBUG: Project 'training:cpp-scan': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+14:34:20.076 INFO: Sensor C# Analysis Log [csharp] (done) | time=20ms
+14:34:20.076 INFO: Sensor C# Properties [csharp]
+14:34:20.076 DEBUG: Project 'training:cpp-scan': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+14:34:20.076 DEBUG: Project 'training:cpp-scan': No Roslyn issues reports have been found.
+14:34:20.076 INFO: Sensor C# Properties [csharp] (done) | time=0ms
+14:34:20.076 INFO: Sensor JavaXmlSensor [java]
+14:34:20.077 INFO: Sensor JavaXmlSensor [java] (done) | time=1ms
+14:34:20.077 INFO: Sensor HTML [web]
+14:34:20.080 INFO: Sensor HTML [web] (done) | time=3ms
+14:34:20.080 INFO: Sensor VB.NET Project Type Information [vbnet]
+14:34:20.081 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+14:34:20.081 INFO: Sensor VB.NET Analysis Log [vbnet]
+14:34:20.098 DEBUG: Project 'training:cpp-scan': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+14:34:20.099 INFO: Sensor VB.NET Analysis Log [vbnet] (done) | time=18ms
+14:34:20.099 INFO: Sensor VB.NET Properties [vbnet]
+14:34:20.099 DEBUG: Project 'training:cpp-scan': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+14:34:20.099 DEBUG: Project 'training:cpp-scan': No Roslyn issues reports have been found.
+14:34:20.099 INFO: Sensor VB.NET Properties [vbnet] (done) | time=0ms
+14:34:20.099 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+14:34:20.101 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+14:34:20.103 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+14:34:20.103 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+14:34:20.103 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+14:34:20.104 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=1ms
+14:34:20.104 INFO: Sensor Serverless configuration file sensor [securityjsfrontend]
+14:34:20.105 INFO: 0 Serverless function entries were found in the project
+14:34:20.105 INFO: 0 Serverless function handlers were kept as entrypoints
+14:34:20.196 INFO: Sensor Serverless configuration file sensor [securityjsfrontend] (done) | time=92ms
+14:34:20.196 INFO: Sensor AWS SAM template file sensor [securityjsfrontend]
+14:34:20.197 DEBUG: 0 SAM template configuration files were found in the project. 0 SAM function entries were found in total. 0 were kept as potential entrypoints.
+14:34:20.198 INFO: Sensor AWS SAM template file sensor [securityjsfrontend] (done) | time=2ms
+14:34:20.198 INFO: Sensor CFamily [cpp]
+14:34:20.199 INFO: CFamily plugin version: 6.26.0.36731
+14:34:20.199 INFO: Using build-wrapper output: /Users/Olivier/dev/tests/cpp-scan/bw-output/build-wrapper-dump.json
+14:34:20.200 INFO: Available processors: 8
+14:34:20.200 WARN: 
+CFamily plugin supports multithreaded analysis:
+
+* to enable multithreaded analysis
+  please specify the number of threads to use
+  by setting the following property to your analysis:
+  sonar.cfamily.threads=number_of_threads
+
+* if you do not want to enable multithreading
+  please explicitly disable it
+  by setting the following property to your analysis:
+  sonar.cfamily.threads=1
+
+* visit the documentation page for more information
+  https://olivierk-sqlatest.eu.ngrok.io/documentation/analysis/languages/cfamily/
+
+14:34:20.201 INFO: Using 1 thread for analysis according to value of "sonar.cfamily.threads" property.
+14:34:20.201 DEBUG: Unpacking analyzer to: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/.sonartmp/7406352074480949827
+14:34:22.610 INFO: Load project repositories
+14:34:22.662 DEBUG: GET 200 http://localhost:9999/batch/project.protobuf?key=training%3Acpp-scan | time=52ms
+14:34:22.671 INFO: Load project repositories (done) | time=62ms
+14:34:22.671 DEBUG: 'src/HelloWorld.cpp' generated metadata with charset 'UTF-8'
+14:34:22.712 DEBUG: 'src/BiggestUnInt.cpp' generated metadata with charset 'UTF-8'
+14:34:22.721 DEBUG: 'src/SimpleClass.cpp' generated metadata with charset 'UTF-8'
+14:34:22.730 WARN: 
+CFamily plugin supports incremental analysis with the use of a cache:
+
+* if you do not want to enable cache
+  please explicitly disable it
+  by setting the following property to your analysis:
+  sonar.cfamily.cache.enabled=false
+
+* to enable cache please specify the following 2 options:
+  sonar.cfamily.cache.enabled=true
+  sonar.cfamily.cache.path=relative_or_absolute_path_to_cache_location
+
+* visit the documentation page for more information
+  https://olivierk-sqlatest.eu.ngrok.io/documentation/analysis/languages/cfamily/
+
+14:34:22.742 WARN: 
+File
+  /Users/Olivier/dev/tests/cpp-scan/bw-output/build-wrapper-dump.json
+was generated using 6.18 build-wrapper version,
+which does not match analyzer 6.26.0.36731 version.
+
+Please download matching version from the server
+  https://olivierk-sqlatest.eu.ngrok.io/static/cpp/build-wrapper-macosx-x86.zip
+
+14:34:22.749 DEBUG: Using build-wrapper-dump.json probe
+14:34:22.754 INFO: [pool-1-thread-1] /Users/Olivier/dev/tests/cpp-scan/src/BiggestUnInt.cpp
+14:34:22.756 DEBUG: Using build-wrapper-dump.json probe
+14:34:22.757 DEBUG: Using build-wrapper-dump.json probe
+14:34:22.758 DEBUG: Using build-wrapper-dump.json probe
+14:34:27.317 INFO: [pool-1-thread-1] /Users/Olivier/dev/tests/cpp-scan/src/HelloWorld.cpp
+14:34:27.317 DEBUG: Using build-wrapper-dump.json probe
+14:34:27.318 DEBUG: Using build-wrapper-dump.json probe
+14:34:27.319 DEBUG: Using build-wrapper-dump.json probe
+14:34:28.420 INFO: [pool-1-thread-1] /Users/Olivier/dev/tests/cpp-scan/src/SimpleClass.cpp
+14:34:28.421 DEBUG: Using build-wrapper-dump.json probe
+14:34:28.422 DEBUG: Using build-wrapper-dump.json probe
+14:34:30.050 INFO: PCH: unique=0 use=0 (forceInclude=0,throughHeader=0,firstInclude=0) out of 3 (forceInclude=0,throughHeader=0)
+14:34:30.050 INFO: SE: 3 out of 3
+14:34:30.050 INFO: Z3 refutation rate: 0 out of 0
+14:34:30.059 INFO: Subprocess(es) done in 7328ms
+14:34:30.059 INFO: 3 compilation units analyzed
+14:34:30.060 INFO: Sensor CFamily [cpp] (done) | time=9862ms
+14:34:30.060 INFO: Sensor JavaSecuritySensor [security]
+14:34:30.061 INFO: Reading type hierarchy from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/java
+14:34:30.061 INFO: Read 0 type definitions
+14:34:30.063 INFO: Reading UCFGs from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/java
+14:34:30.064 INFO: No UCFGs have been included for analysis.
+14:34:30.064 INFO: Sensor JavaSecuritySensor [security] (done) | time=4ms
+14:34:30.064 INFO: Sensor CSharpSecuritySensor [security]
+14:34:30.064 INFO: Reading type hierarchy from: /Users/Olivier/dev/tests/cpp-scan/ucfg_cs2
+14:34:30.064 INFO: Read 0 type definitions
+14:34:30.065 INFO: Reading UCFGs from: /Users/Olivier/dev/tests/cpp-scan/ucfg_cs2
+14:34:30.065 INFO: No UCFGs have been included for analysis.
+14:34:30.065 INFO: Sensor CSharpSecuritySensor [security] (done) | time=1ms
+14:34:30.065 INFO: Sensor PhpSecuritySensor [security]
+14:34:30.065 INFO: Reading type hierarchy from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/php
+14:34:30.066 INFO: Read 0 type definitions
+14:34:30.066 INFO: Reading UCFGs from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/php
+14:34:30.067 INFO: No UCFGs have been included for analysis.
+14:34:30.067 INFO: Sensor PhpSecuritySensor [security] (done) | time=2ms
+14:34:30.067 INFO: Sensor PythonSecuritySensor [security]
+14:34:30.067 INFO: Reading type hierarchy from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/python
+14:34:30.067 INFO: Read 0 type definitions
+14:34:30.067 INFO: Reading UCFGs from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/python
+14:34:30.067 INFO: No UCFGs have been included for analysis.
+14:34:30.067 INFO: Sensor PythonSecuritySensor [security] (done) | time=0ms
+14:34:30.067 INFO: Sensor JsSecuritySensor [security]
+14:34:30.068 INFO: Reading type hierarchy from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/js
+14:34:30.070 INFO: Read 0 type definitions
+14:34:30.070 INFO: Reading UCFGs from: /Users/Olivier/dev/tests/cpp-scan/.scannerwork/ucfg2/js
+14:34:30.130 INFO: 14:34:30.130452 Building Runtime Type propagation graph
+14:34:30.133 INFO: 14:34:30.133658 Running Tarjan on 0 nodes
+14:34:30.134 INFO: 14:34:30.134308 Tarjan found 0 components
+14:34:30.134 INFO: 14:34:30.134412 Variable type analysis: done
+14:34:30.134 INFO: 14:34:30.13472 Building Runtime Type propagation graph
+14:34:30.134 INFO: 14:34:30.134835 Running Tarjan on 0 nodes
+14:34:30.134 INFO: 14:34:30.13489 Tarjan found 0 components
+14:34:30.135 INFO: 14:34:30.134985 Variable type analysis: done
+14:34:30.135 INFO: Analyzing 2 ucfgs to detect vulnerabilities.
+14:34:30.237 DEBUG: Resource file jssecurity/sources/S2076.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S2078.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S2083.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S2091.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S2631.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S3649.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S5131.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S5135.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S5144.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S5145.json was not read
+14:34:30.238 DEBUG: Resource file jssecurity/sources/S5146.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S5147.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S5167.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S5334.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S5335.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S5696.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S5883.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S6096.json was not read
+14:34:30.239 DEBUG: Resource file jssecurity/sources/S6105.json was not read
+14:34:30.242 DEBUG: loaded 1 sources.
+14:34:30.246 DEBUG: Resource file jssecurity/sanitizers/S2076.json was not read
+14:34:30.246 DEBUG: Resource file jssecurity/sanitizers/S2078.json was not read
+14:34:30.246 DEBUG: Resource file jssecurity/sanitizers/S2083.json was not read
+14:34:30.246 DEBUG: Resource file jssecurity/sanitizers/S2091.json was not read
+14:34:30.246 DEBUG: Resource file jssecurity/sanitizers/S2631.json was not read
+14:34:30.246 DEBUG: Resource file jssecurity/sanitizers/S3649.json was not read
+14:34:30.246 DEBUG: Resource file jssecurity/sanitizers/S5131.json was not read
+14:34:30.247 DEBUG: Resource file jssecurity/sanitizers/S5135.json was not read
+14:34:30.247 DEBUG: Resource file jssecurity/sanitizers/S5144.json was not read
+14:34:30.247 DEBUG: Resource file jssecurity/sanitizers/S5145.json was not read
+14:34:30.247 DEBUG: Resource file jssecurity/sanitizers/S5146.json was not read
+14:34:30.248 DEBUG: Resource file jssecurity/sanitizers/S5167.json was not read
+14:34:30.248 DEBUG: Resource file jssecurity/sanitizers/S5334.json was not read
+14:34:30.248 DEBUG: Resource file jssecurity/sanitizers/S5335.json was not read
+14:34:30.248 DEBUG: Resource file jssecurity/sanitizers/S5696.json was not read
+14:34:30.248 DEBUG: Resource file jssecurity/sanitizers/S5883.json was not read
+14:34:30.248 DEBUG: Resource file jssecurity/sanitizers/S6096.json was not read
+14:34:30.249 DEBUG: Resource file jssecurity/sanitizers/S6105.json was not read
+14:34:30.249 DEBUG: loaded 4 sanitizers.
+14:34:30.249 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+14:34:30.249 DEBUG: Resource file jssecurity/passthroughs/S2076.json was not read
+14:34:30.249 DEBUG: Resource file jssecurity/passthroughs/S2078.json was not read
+14:34:30.249 DEBUG: Resource file jssecurity/passthroughs/S2083.json was not read
+14:34:30.249 DEBUG: Resource file jssecurity/passthroughs/S2091.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S2631.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S3649.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5131.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5135.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5144.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5145.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5146.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5147.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5167.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5334.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5335.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5696.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S5883.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S6096.json was not read
+14:34:30.250 DEBUG: Resource file jssecurity/passthroughs/S6105.json was not read
+14:34:30.251 DEBUG: loaded 0 passthroughs.
+14:34:30.251 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+14:34:30.251 DEBUG: Resource file jssecurity/collectionHandlers/S2076.json was not read
+14:34:30.251 DEBUG: Resource file jssecurity/collectionHandlers/S2078.json was not read
+14:34:30.251 DEBUG: Resource file jssecurity/collectionHandlers/S2083.json was not read
+14:34:30.251 DEBUG: Resource file jssecurity/collectionHandlers/S2091.json was not read
+14:34:30.251 DEBUG: Resource file jssecurity/collectionHandlers/S2631.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S3649.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S5131.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S5135.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S5144.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S5145.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S5146.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S5147.json was not read
+14:34:30.252 DEBUG: Resource file jssecurity/collectionHandlers/S5167.json was not read
+14:34:30.253 DEBUG: Resource file jssecurity/collectionHandlers/S5334.json was not read
+14:34:30.253 DEBUG: Resource file jssecurity/collectionHandlers/S5335.json was not read
+14:34:30.253 DEBUG: Resource file jssecurity/collectionHandlers/S5696.json was not read
+14:34:30.253 DEBUG: Resource file jssecurity/collectionHandlers/S5883.json was not read
+14:34:30.253 DEBUG: Resource file jssecurity/collectionHandlers/S6096.json was not read
+14:34:30.253 DEBUG: Resource file jssecurity/collectionHandlers/S6105.json was not read
+14:34:30.253 DEBUG: loaded 0 collectionHandlers.
+14:34:30.256 DEBUG: Resource file jssecurity/sinks/S2076.json was not read
+14:34:30.256 DEBUG: Resource file jssecurity/sinks/S2078.json was not read
+14:34:30.256 DEBUG: Resource file jssecurity/sinks/S2083.json was not read
+14:34:30.256 DEBUG: Resource file jssecurity/sinks/S2091.json was not read
+14:34:30.256 DEBUG: Resource file jssecurity/sinks/S2631.json was not read
+14:34:30.256 DEBUG: Resource file jssecurity/sinks/S3649.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5131.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5135.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5144.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5145.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5146.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5147.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5167.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5334.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5335.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5696.json was not read
+14:34:30.257 DEBUG: Resource file jssecurity/sinks/S5883.json was not read
+14:34:30.258 DEBUG: Resource file jssecurity/sinks/S6096.json was not read
+14:34:30.258 DEBUG: Resource file jssecurity/sinks/S6105.json was not read
+14:34:30.258 DEBUG: loaded 1 sinks.
+14:34:30.258 DEBUG: Resource file jssecurity/encoders/common.json was not read
+14:34:30.258 DEBUG: Resource file jssecurity/encoders/S2076.json was not read
+14:34:30.258 DEBUG: Resource file jssecurity/encoders/S2078.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S2083.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S2091.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S2631.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S3649.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5131.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5135.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5144.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5145.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5146.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5147.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5167.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5334.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5335.json was not read
+14:34:30.259 DEBUG: Resource file jssecurity/encoders/S5696.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/encoders/S5883.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/encoders/S6096.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/encoders/S6105.json was not read
+14:34:30.260 DEBUG: loaded 0 encoders.
+14:34:30.260 DEBUG: Resource file jssecurity/decoders/common.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/decoders/S2076.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/decoders/S2078.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/decoders/S2083.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/decoders/S2091.json was not read
+14:34:30.260 DEBUG: Resource file jssecurity/decoders/S2631.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S3649.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5131.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5135.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5144.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5145.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5146.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5147.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5167.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5334.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5335.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5696.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S5883.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S6096.json was not read
+14:34:30.261 DEBUG: Resource file jssecurity/decoders/S6105.json was not read
+14:34:30.262 DEBUG: loaded 0 decoders.
+14:34:30.291 INFO: Taint analysis starting. Entrypoints: 3
+14:34:30.291 INFO: Running symbolic analysis for 'JS'
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S2076.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S2078.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S2083.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S2091.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S2631.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S3649.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S5131.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S5135.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S5144.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S5145.json was not read
+14:34:30.293 DEBUG: Resource file jssecurity/sanitizers/S5146.json was not read
+14:34:30.294 DEBUG: Resource file jssecurity/sanitizers/S5167.json was not read
+14:34:30.294 DEBUG: Resource file jssecurity/sanitizers/S5334.json was not read
+14:34:30.294 DEBUG: Resource file jssecurity/sanitizers/S5335.json was not read
+14:34:30.294 DEBUG: Resource file jssecurity/sanitizers/S5696.json was not read
+14:34:30.294 DEBUG: Resource file jssecurity/sanitizers/S5883.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/sanitizers/S6096.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/sanitizers/S6105.json was not read
+14:34:30.295 DEBUG: loaded 4 sanitizers.
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S2076.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S2078.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S2083.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S2091.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S2631.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S3649.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S5131.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S5135.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S5144.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S5145.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S5146.json was not read
+14:34:30.295 DEBUG: Resource file jssecurity/passthroughs/S5147.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/passthroughs/S5167.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/passthroughs/S5334.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/passthroughs/S5335.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/passthroughs/S5696.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/passthroughs/S5883.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/passthroughs/S6096.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/passthroughs/S6105.json was not read
+14:34:30.296 DEBUG: loaded 0 passthroughs.
+14:34:30.296 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/collectionHandlers/S2076.json was not read
+14:34:30.296 DEBUG: Resource file jssecurity/collectionHandlers/S2078.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S2083.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S2091.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S2631.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S3649.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5131.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5135.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5144.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5145.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5146.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5147.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5167.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5334.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5335.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5696.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S5883.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S6096.json was not read
+14:34:30.297 DEBUG: Resource file jssecurity/collectionHandlers/S6105.json was not read
+14:34:30.298 DEBUG: loaded 0 collectionHandlers.
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/common.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S2076.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S2078.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S2083.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S2091.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S2631.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S3649.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5131.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5135.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5144.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5145.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5146.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5147.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5167.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5334.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5335.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5696.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S5883.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S6096.json was not read
+14:34:30.298 DEBUG: Resource file jssecurity/encoders/S6105.json was not read
+14:34:30.299 DEBUG: loaded 0 encoders.
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/common.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S2076.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S2078.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S2083.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S2091.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S2631.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S3649.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5131.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5135.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5144.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5145.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5146.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5147.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5167.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5334.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5335.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5696.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S5883.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S6096.json was not read
+14:34:30.299 DEBUG: Resource file jssecurity/decoders/S6105.json was not read
+14:34:30.300 DEBUG: loaded 0 decoders.
+14:34:30.542 DEBUG: Reporting issues for rule jssecurity:S6105
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S3649
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S5146
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S2083
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S5147
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S5144
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S5131
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S2076
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S5696
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S5883
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S5334
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S6096
+14:34:30.543 DEBUG: Reporting issues for rule jssecurity:S2631
+14:34:30.543 INFO: Taint analysis: done.
+14:34:30.543 INFO: Sensor JsSecuritySensor [security] (done) | time=476ms
+14:34:30.547 INFO: ------------- Run sensors on project
+14:34:30.562 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+14:34:30.562 DEBUG: 'C#' skipped because there is no related file in current project
+14:34:30.563 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+14:34:30.563 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+14:34:30.563 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+14:34:30.563 DEBUG: 'VB.NET' skipped because there is no related file in current project
+14:34:30.564 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+14:34:30.564 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+14:34:30.564 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+14:34:30.564 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+14:34:30.565 DEBUG: Sensors : Zero Coverage Sensor
+14:34:30.565 INFO: Sensor Zero Coverage Sensor
+14:34:30.579 INFO: Sensor Zero Coverage Sensor (done) | time=14ms
+14:34:30.580 INFO: SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+14:34:30.584 INFO: CPD Executor Calculating CPD for 3 files
+14:34:30.584 DEBUG: Detection of duplications for /Users/Olivier/dev/tests/cpp-scan/src/BiggestUnInt.cpp
+14:34:30.595 DEBUG: Detection of duplications for /Users/Olivier/dev/tests/cpp-scan/src/SimpleClass.cpp
+14:34:30.595 DEBUG: Detection of duplications for /Users/Olivier/dev/tests/cpp-scan/src/HelloWorld.cpp
+14:34:30.602 INFO: CPD Executor CPD calculation finished (done) | time=12ms
+14:34:30.609 INFO: Load New Code definition
+14:34:30.621 DEBUG: GET 200 http://localhost:9999/api/new_code_periods/show.protobuf?project=training%3Acpp-scan&branch=master | time=9ms
+14:34:30.622 INFO: Load New Code definition (done) | time=13ms
+14:34:30.690 INFO: Analysis report generated in 85ms, dir size=207,1 kB
+14:34:30.723 INFO: Analysis report compressed in 32ms, zip size=38,3 kB
+14:34:30.724 INFO: Analysis report generated in /Users/Olivier/dev/tests/cpp-scan/.scannerwork/scanner-report
+14:34:30.724 DEBUG: Upload report
+14:34:30.786 DEBUG: POST 200 http://localhost:9999/api/ce/submit?projectKey=training%3Acpp-scan&projectName=Training%3A%20C%2B%2B%20scan%20with%20build%20wrapper | time=61ms
+14:34:30.797 INFO: Analysis report uploaded in 70ms
+14:34:30.799 DEBUG: Report metadata written to /Users/Olivier/dev/tests/cpp-scan/.scannerwork/report-task.txt
+14:34:30.799 INFO: ANALYSIS SUCCESSFUL, you can browse https://olivierk-sqlatest.eu.ngrok.io/dashboard?id=training%3Acpp-scan
+14:34:30.799 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+14:34:30.799 INFO: More about the report processing at https://olivierk-sqlatest.eu.ngrok.io/api/ce/task?id=AXzwTtVUl-2xkzDFFX0n
+14:34:30.801 DEBUG: Post-jobs : 
+14:34:30.837 INFO: Analysis total time: 15.926 s
+14:34:30.839 INFO: ------------------------------------------------------------------------
+14:34:30.839 INFO: EXECUTION SUCCESS
+14:34:30.839 INFO: ------------------------------------------------------------------------
+14:34:30.839 INFO: Total time: 17.748s
+14:34:30.909 INFO: Final Memory: 8M/40M
+14:34:30.909 INFO: ------------------------------------------------------------------------

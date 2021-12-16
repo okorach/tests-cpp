@@ -1,0 +1,186 @@
+SonarQube Runner 2.4
+Java 1.8.0_60 Oracle Corporation (64-bit)
+Mac OS X 10.11.4 x86_64
+INFO: Runner configuration file: /Users/Olivier/sq/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: /Users/Olivier/training/cpp/cpp-sonar-runner/sonar-project.properties
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Work directory: /Users/Olivier/training/cpp/cpp-sonar-runner/./.sonar
+INFO: SonarQube Server 5.4
+13:03:07.537 INFO  - Load global repositories
+13:03:07.906 INFO  - Load global repositories (done) | time=367ms
+13:03:07.935 WARN  - Property 'sonar.jdbc.username' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+13:03:07.937 WARN  - Property 'sonar.jdbc.password' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+13:03:07.938 INFO  - User cache: /Users/Olivier/.sonar/cache
+13:03:08.203 INFO  - Load plugins index
+13:03:08.208 INFO  - Load plugins index (done) | time=5ms
+13:03:09.083 ERROR - No license for plugin vb
+13:03:09.109 INFO  - report plugin licensed to developers, EVALUATION [Expiration: 2016-04-15, Server: *]
+13:03:09.219 INFO  - Process project properties
+13:03:09.340 INFO  - Load project repositories
+13:03:09.353 INFO  - Load project repositories (done) | time=13ms
+13:03:09.359 INFO  - Execute project builders
+13:03:09.360 INFO  - Execute project builders (done) | time=1ms
+13:03:09.360 INFO  - Apply project exclusions
+13:03:09.425 INFO  - Load quality profiles
+13:03:09.458 INFO  - Load quality profiles (done) | time=33ms
+13:03:09.469 INFO  - Load active rules
+13:03:10.153 INFO  - Load active rules (done) | time=684ms
+13:03:10.160 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+13:03:10.161 INFO  - Publish mode
+13:03:10.162 INFO  - -------------  Scan C++ :: Simple Project :: SonarQube Runner
+13:03:10.317 INFO  - Language is forced to cpp
+13:03:10.319 INFO  - Load server rules
+13:03:10.635 INFO  - Load server rules (done) | time=316ms
+13:03:10.720 INFO  - Base dir: /Users/Olivier/training/cpp/cpp-sonar-runner
+13:03:10.720 INFO  - Working dir: /Users/Olivier/training/cpp/cpp-sonar-runner/.sonar
+13:03:10.722 INFO  - Source paths: src
+13:03:10.722 INFO  - Source encoding: UTF-8, default locale: en_US
+13:03:10.722 INFO  - Index files
+13:03:10.748 INFO  - 4 files indexed
+13:03:10.754 INFO  - Quality profile for cpp: Sonar way
+13:03:11.839 INFO  - JaCoCoSensor: JaCoCo report not found : /Users/Olivier/training/cpp/cpp-sonar-runner/target/jacoco.exec
+13:03:11.839 INFO  - JaCoCoItSensor: JaCoCo IT report not found: /Users/Olivier/training/cpp/cpp-sonar-runner/target/jacoco-it.exec
+13:03:11.897 INFO  - devcockpit EVALUATION [Expiration: 2016-04-15, Server: *]
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+Total time: 5.471s
+Final Memory: 22M/421M
+INFO: ------------------------------------------------------------------------
+SonarQube Runner 2.4
+Java 1.8.0_60 Oracle Corporation (64-bit)
+Mac OS X 10.11.4 x86_64
+INFO: Runner configuration file: /Users/Olivier/sq/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: /Users/Olivier/training/cpp/cpp-sonar-runner/sonar-project.properties
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Work directory: /Users/Olivier/training/cpp/cpp-sonar-runner/./.sonar
+INFO: SonarQube Server 5.4
+13:04:27.504 INFO  - Load global repositories
+13:04:27.742 INFO  - Load global repositories (done) | time=236ms
+13:04:27.758 WARN  - Property 'sonar.jdbc.username' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+13:04:27.759 WARN  - Property 'sonar.jdbc.password' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+13:04:27.760 INFO  - User cache: /Users/Olivier/.sonar/cache
+13:04:27.962 INFO  - Load plugins index
+13:04:27.966 INFO  - Load plugins index (done) | time=4ms
+13:04:28.651 ERROR - No license for plugin vb
+13:04:28.678 INFO  - report plugin licensed to developers, EVALUATION [Expiration: 2016-04-15, Server: *]
+13:04:28.766 INFO  - Process project properties
+13:04:28.876 INFO  - Load project repositories
+13:04:28.888 INFO  - Load project repositories (done) | time=12ms
+13:04:28.894 INFO  - Execute project builders
+13:04:28.895 INFO  - Execute project builders (done) | time=1ms
+13:04:28.895 INFO  - Apply project exclusions
+13:04:28.963 INFO  - Load quality profiles
+13:04:28.993 INFO  - Load quality profiles (done) | time=30ms
+13:04:28.997 INFO  - Load active rules
+13:04:29.595 INFO  - Load active rules (done) | time=598ms
+13:04:29.601 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+13:04:29.601 INFO  - Publish mode
+13:04:29.602 INFO  - -------------  Scan C++ :: Simple Project :: SonarQube Runner
+13:04:29.723 INFO  - Language is forced to cpp
+13:04:29.725 INFO  - Load server rules
+13:04:29.985 INFO  - Load server rules (done) | time=260ms
+13:04:30.063 INFO  - Base dir: /Users/Olivier/training/cpp/cpp-sonar-runner
+13:04:30.063 INFO  - Working dir: /Users/Olivier/training/cpp/cpp-sonar-runner/.sonar
+13:04:30.065 INFO  - Source paths: src
+13:04:30.065 INFO  - Source encoding: UTF-8, default locale: en_US
+13:04:30.065 INFO  - Index files
+13:04:30.088 INFO  - 4 files indexed
+13:04:30.093 INFO  - Quality profile for cpp: Sonar way
+13:04:31.066 INFO  - JaCoCoSensor: JaCoCo report not found : /Users/Olivier/training/cpp/cpp-sonar-runner/target/jacoco.exec
+13:04:31.066 INFO  - JaCoCoItSensor: JaCoCo IT report not found: /Users/Olivier/training/cpp/cpp-sonar-runner/target/jacoco-it.exec
+13:04:31.119 INFO  - devcockpit EVALUATION [Expiration: 2016-04-15, Server: *]
+13:04:31.143 INFO  - cpp EVALUATION [Expiration: 2016-05-16, Server: *]
+13:04:31.179 INFO  - sqale EVALUATION [Expiration: 2016-04-15, Server: *]
+13:04:31.186 INFO  - views EVALUATION [Expiration: 2016-04-15, Server: *]
+13:04:31.189 INFO  - Sensor Lines Sensor
+13:04:31.203 INFO  - Sensor Lines Sensor (done) | time=14ms
+13:04:31.203 INFO  - Sensor QProfileSensor
+13:04:31.207 INFO  - Sensor QProfileSensor (done) | time=4ms
+13:04:31.207 INFO  - Sensor SquidSensorCpp
+13:04:31.209 INFO  - C/C++ Preprocessor in silent mode. Relaunch the analysis with "sonar.verbose=true" to see issues encountered by the preprocessor.
+13:04:32.028 ERROR - The only way to get an accurate analysis of your C/C++/Objective-C project is by using the SonarSource build-wrapper. If for any reason, the use of the build-wrapper is not possible on your project, you can bypass it with the help of the "sonar.cfamily.build-wrapper-output.bypass=true" property. By using that property, you'll switch to an "at best" mode that could result in false-positives and false-negatives.
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION FAILURE
+INFO: ------------------------------------------------------------------------
+Total time: 4.976s
+Final Memory: 37M/585M
+INFO: ------------------------------------------------------------------------
+SonarQube Runner 2.4
+Java 1.8.0_60 Oracle Corporation (64-bit)
+Mac OS X 10.11.4 x86_64
+INFO: Runner configuration file: /Users/Olivier/sq/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: /Users/Olivier/training/cpp/cpp-sonar-runner/sonar-project.properties
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Work directory: /Users/Olivier/training/cpp/cpp-sonar-runner/./.sonar
+INFO: SonarQube Server 5.4
+13:05:07.744 INFO  - Load global repositories
+13:05:07.987 INFO  - Load global repositories (done) | time=241ms
+13:05:08.004 WARN  - Property 'sonar.jdbc.username' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+13:05:08.005 WARN  - Property 'sonar.jdbc.password' is not supported any more. It will be ignored. There is no longer any DB connection to the SQ database.
+13:05:08.007 INFO  - User cache: /Users/Olivier/.sonar/cache
+13:05:08.214 INFO  - Load plugins index
+13:05:08.218 INFO  - Load plugins index (done) | time=4ms
+13:05:08.900 ERROR - No license for plugin vb
+13:05:08.928 INFO  - report plugin licensed to developers, EVALUATION [Expiration: 2016-04-15, Server: *]
+13:05:09.016 INFO  - Process project properties
+13:05:09.124 INFO  - Load project repositories
+13:05:09.136 INFO  - Load project repositories (done) | time=12ms
+13:05:09.142 INFO  - Execute project builders
+13:05:09.143 INFO  - Execute project builders (done) | time=1ms
+13:05:09.143 INFO  - Apply project exclusions
+13:05:09.212 INFO  - Load quality profiles
+13:05:09.242 INFO  - Load quality profiles (done) | time=30ms
+13:05:09.252 INFO  - Load active rules
+13:05:09.796 INFO  - Load active rules (done) | time=544ms
+13:05:09.802 WARN  - SCM provider autodetection failed. No SCM provider claims to support this project. Please use sonar.scm.provider to define SCM of your project.
+13:05:09.802 INFO  - Publish mode
+13:05:09.803 INFO  - -------------  Scan C++ :: Simple Project :: SonarQube Runner
+13:05:09.926 INFO  - Language is forced to cpp
+13:05:09.928 INFO  - Load server rules
+13:05:10.176 INFO  - Load server rules (done) | time=248ms
+13:05:10.251 INFO  - Base dir: /Users/Olivier/training/cpp/cpp-sonar-runner
+13:05:10.251 INFO  - Working dir: /Users/Olivier/training/cpp/cpp-sonar-runner/.sonar
+13:05:10.252 INFO  - Source paths: src
+13:05:10.252 INFO  - Source encoding: UTF-8, default locale: en_US
+13:05:10.253 INFO  - Index files
+13:05:10.274 INFO  - 4 files indexed
+13:05:10.278 INFO  - Quality profile for cpp: Sonar way
+13:05:11.198 INFO  - JaCoCoSensor: JaCoCo report not found : /Users/Olivier/training/cpp/cpp-sonar-runner/target/jacoco.exec
+13:05:11.198 INFO  - JaCoCoItSensor: JaCoCo IT report not found: /Users/Olivier/training/cpp/cpp-sonar-runner/target/jacoco-it.exec
+13:05:11.244 INFO  - devcockpit EVALUATION [Expiration: 2016-04-15, Server: *]
+13:05:11.269 INFO  - cpp EVALUATION [Expiration: 2016-05-16, Server: *]
+13:05:11.300 INFO  - sqale EVALUATION [Expiration: 2016-04-15, Server: *]
+13:05:11.306 INFO  - views EVALUATION [Expiration: 2016-04-15, Server: *]
+13:05:11.310 INFO  - Sensor Lines Sensor
+13:05:11.324 INFO  - Sensor Lines Sensor (done) | time=14ms
+13:05:11.324 INFO  - Sensor QProfileSensor
+13:05:11.328 INFO  - Sensor QProfileSensor (done) | time=4ms
+13:05:11.328 INFO  - Sensor SquidSensorCpp
+13:05:11.330 INFO  - C/C++ Preprocessor in silent mode. Relaunch the analysis with "sonar.verbose=true" to see issues encountered by the preprocessor.
+13:05:12.047 WARN  - build-wrapper output is not used to analyse this project. This may result in false-positives and false-negatives.
+13:05:12.048 INFO  - Parsing based on 'c++11' standard.
+13:05:12.048 INFO  - 4 source files to be analyzed
+13:05:12.380 INFO  - 4/4 source files analyzed
+13:05:12.380 INFO  - PPH: 0 files, 0 bytes, 0 hits, 0 queries
+13:05:12.399 INFO  - Sensor SquidSensorCpp (done) | time=1071ms
+13:05:12.399 INFO  - Sensor SCM Sensor
+13:05:12.399 INFO  - No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+13:05:12.399 INFO  - Sensor SCM Sensor (done) | time=0ms
+13:05:12.399 INFO  - Sensor Code Colorizer Sensor
+13:05:12.400 INFO  - Sensor Code Colorizer Sensor (done) | time=1ms
+13:05:12.400 INFO  - Sensor CPD Sensor
+13:05:12.400 INFO  - DefaultCpdIndexer is used for cpp
+13:05:12.413 INFO  - Sensor CPD Sensor (done) | time=13ms
+13:05:12.503 INFO  - Analysis report generated in 63ms, dir size=47 KB
+13:05:12.526 INFO  - Analysis reports compressed in 22ms, zip size=21 KB
+13:05:12.627 INFO  - Analysis report uploaded in 100ms
+13:05:12.627 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/org.sonarqube:cpp-simple-sq-runner
+13:05:12.627 INFO  - Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+13:05:12.627 INFO  - More about the report processing at http://localhost:9000/api/ce/task?id=AVPg8qiriCxAFcCeAqNM
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 5.755s
+Final Memory: 33M/595M
+INFO: ------------------------------------------------------------------------

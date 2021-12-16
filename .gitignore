@@ -1,0 +1,7 @@
+**/.scannerwork/
+**/build-wrapper-dump.json
+**/build-wrapper.log
+**/*.o
+**/build/
+**/.sonar/
+**/.vscode/

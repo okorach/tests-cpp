@@ -1,0 +1,232 @@
+SonarQube Runner 2.4
+Java 1.8.0_60 Oracle Corporation (64-bit)
+Mac OS X 10.11.2 x86_64
+INFO: Error stacktraces are turned on.
+INFO: Runner configuration file: /Users/Olivier/sq/sonar-runner-2.4/conf/sonar-runner.properties
+INFO: Project configuration file: /Users/Olivier/GitHub/sonar-examples/projects/languages/c/c-sonar-runner/sonar-project.properties
+INFO: Default locale: "en_US", source code encoding: "UTF-8"
+INFO: Work directory: /Users/Olivier/GitHub/sonar-examples/projects/languages/c/c-sonar-runner/./.sonar
+INFO: SonarQube Server 4.5.6
+17:58:59.499 INFO  - Load global referentials...
+17:58:59.508 DEBUG - Download: http://localhost:9000/batch/global (no proxy)
+17:58:59.673 INFO  - Load global referentials done: 175 ms
+17:58:59.683 INFO  - User cache: /Users/Olivier/.sonar/cache
+17:58:59.692 INFO  - Install plugins
+17:58:59.692 DEBUG - Download index of plugins
+17:58:59.692 DEBUG - Download: http://localhost:9000/deploy/plugins/index.txt (no proxy)
+17:58:59.860 INFO  - Install JDBC driver
+17:58:59.860 DEBUG - Download index of jdbc-driver
+17:58:59.860 DEBUG - Download: http://localhost:9000/deploy/jdbc-driver.txt (no proxy)
+17:58:59.866 INFO  - Create JDBC datasource for jdbc:h2:tcp://localhost/sonar
+17:58:59.919 DEBUG - Testing JDBC connection
+17:59:00.705 DEBUG - Download: http://localhost:9000/api/server (no proxy)
+17:59:00.722 INFO  - Initializing Hibernate
+17:59:00.723 DEBUG - hibernate.generate_statistics: false
+17:59:00.723 DEBUG - hibernate.dialect: org.hibernate.dialect.H2Dialect
+17:59:00.723 DEBUG - hibernate.connection.provider_class: org.sonar.jpa.session.CustomHibernateConnectionProvider
+17:59:01.643 DEBUG - Loaded 2595 properties from l10n bundles
+17:59:01.852 INFO  - sqale plugin licensed to developers, EVALUATION [Expiration: 2016-01-15, Server: *]
+17:59:01.857 INFO  - report plugin licensed to developers, EVALUATION [Expiration: 2016-01-15, Server: *]
+17:59:01.882 INFO  - views plugin licensed to developers, EVALUATION [Expiration: 2016-01-15, Server: *]
+17:59:02.042 INFO  - Load project referentials...
+17:59:02.042 DEBUG - Download: http://localhost:9000/batch/project?key=org.sonarqube:c-simple-sq-runner&amp;preview=false (no proxy)
+17:59:02.503 INFO  - Load project referentials done: 461 ms
+17:59:02.503 INFO  - Load project settings
+17:59:02.780 INFO  - Loading technical debt model...
+17:59:02.798 INFO  - Loading technical debt model done: 18 ms
+17:59:02.801 INFO  - Apply project exclusions
+17:59:02.957 DEBUG - ==>  Preparing: select * from projects p where p.id=? 
+17:59:02.973 DEBUG - ==> Parameters: 667(Long)
+17:59:02.981 DEBUG - <==      Total: 1
+17:59:03.004 DEBUG - Acquire semaphore on project : org.sonar.api.resources.Project@12ce5274[id=667,key=org.sonarqube:c-simple-sq-runner,qualifier=TRK], with key batch-org.sonarqube:c-simple-sq-runner
+17:59:03.019 INFO  - -------------  Scan C :: Simple Project :: SonarQube Runner
+17:59:03.024 INFO  - Load module settings
+17:59:03.334 DEBUG - Available languages:
+17:59:03.335 DEBUG -   * C => "c"
+17:59:03.335 DEBUG -   * C++ => "cpp"
+17:59:03.335 DEBUG -   * Objective-C => "objc"
+17:59:03.335 DEBUG -   * PL/I => "pli"
+17:59:03.335 DEBUG -   * JavaScript => "js"
+17:59:03.335 DEBUG -   * PL/SQL => "plsql"
+17:59:03.335 DEBUG -   * C# => "cs"
+17:59:03.335 DEBUG -   * Java => "java"
+17:59:03.335 DEBUG -   * Swift => "swift"
+17:59:03.542 INFO  - Language is forced to c
+17:59:03.544 INFO  - Loading rules...
+17:59:04.186 INFO  - Loading rules done: 642 ms
+17:59:04.217 INFO  - Configure Maven plugins
+17:59:04.308 INFO  - No quality gate is configured.
+17:59:04.951 DEBUG - Initializers : 
+17:59:04.951 INFO  - Base dir: /Users/Olivier/GitHub/sonar-examples/projects/languages/c/c-sonar-runner/.
+17:59:04.952 INFO  - Working dir: /Users/Olivier/GitHub/sonar-examples/projects/languages/c/c-sonar-runner/./.sonar
+17:59:04.952 INFO  - Source paths: src
+17:59:04.952 INFO  - Source encoding: UTF-8, default locale: en_US
+17:59:04.952 INFO  - Index files
+17:59:04.956 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@727569f3 were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@43cb630d were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@7e8dca7 were converted to sonar.lang.patterns.objc : **/*.m
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@1c43b31d were converted to sonar.lang.patterns.pli : **/*.pli
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@45a07b97 were converted to sonar.lang.patterns.js : **/*.js
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@5d6bbb25 were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@1ca749cb were converted to sonar.lang.patterns.cs : **/*.cs
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@1d7dca19 were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+17:59:04.957 DEBUG - Declared extensions of language org.sonar.batch.languages.Language@5bc776e2 were converted to sonar.lang.patterns.swift : **/*.swift
+17:59:04.971 DEBUG - Language of file 'src/main.c' is detected to be 'c'
+17:59:04.990 INFO  - 1 files indexed
+17:59:05.023 INFO  - Quality profile for c: Sonar way
+17:59:05.035 DEBUG - Sensors : QProfileSensor -> SquidSensorC -> InitialOpenIssuesSensor -> ProjectLinksSensor -> VersionEventsSensor -> FileHashSensor -> CPD Sensor (wrapped)
+17:59:05.052 INFO  - cpp EVALUATION [Expiration: 2016-01-15, Server: *]
+17:59:05.053 INFO  - Sensor QProfileSensor...
+17:59:05.062 INFO  - Sensor QProfileSensor done: 9 ms
+17:59:05.062 INFO  - Sensor SquidSensorC...
+17:59:05.906 INFO  - Parsing based on 'c11' standard.
+17:59:05.910 INFO  - 1 source files to be analyzed
+17:59:05.949 DEBUG - 'stdio.h' file not found
+17:59:05.949 DEBUG - 'mylib.h' file not found
+17:59:06.078 INFO  - 1/1 source files analyzed
+17:59:06.078 INFO  - CFG: peak memory consumption: 12 entries
+17:59:06.078 INFO  - PPH: 0 files, 0 bytes, 0 hits, 0 queries
+17:59:06.086 INFO  - Sensor SquidSensorC done: 1024 ms
+17:59:06.086 INFO  - Sensor InitialOpenIssuesSensor...
+17:59:06.101 INFO  - Sensor InitialOpenIssuesSensor done: 15 ms
+17:59:06.101 INFO  - Sensor ProjectLinksSensor...
+17:59:06.105 INFO  - Sensor ProjectLinksSensor done: 4 ms
+17:59:06.106 INFO  - Sensor VersionEventsSensor...
+17:59:06.112 INFO  - Sensor VersionEventsSensor done: 6 ms
+17:59:06.112 INFO  - Sensor FileHashSensor...
+17:59:06.113 INFO  - Sensor FileHashSensor done: 1 ms
+17:59:06.113 INFO  - Sensor CPD Sensor (wrapped)...
+17:59:06.113 INFO  - DefaultCpdEngine is used for c
+17:59:06.114 INFO  - Cross-project analysis disabled
+17:59:06.118 DEBUG - Populating index from [relative=src/main.c, abs=/Users/Olivier/GitHub/sonar-examples/projects/languages/c/c-sonar-runner/src/main.c]
+17:59:06.125 DEBUG - Detection of duplications for [relative=src/main.c, abs=/Users/Olivier/GitHub/sonar-examples/projects/languages/c/c-sonar-runner/src/main.c]
+17:59:06.128 INFO  - Sensor CPD Sensor (wrapped) done: 15 ms
+17:59:06.452 INFO  - Execute decorators...
+17:59:06.452 DEBUG - Decorators: ManualMeasureDecorator -> QProfileEventsDecorator -> UnitTestDecorator -> org.sonar.plugins.core.security.ApplyProjectRolesDecorator@5b83e954 -> org.sonar.plugins.core.sensors.DirectoriesDecorator@19503dfa -> org.sonar.plugins.core.sensors.FilesDecorator@32fd55a6 -> org.sonar.plugins.core.timemachine.TimeMachineConfigurationPersister@58221710 -> org.sonar.plugins.core.timemachine.NewCoverageAggregator@70f5a2a1 -> SumDuplicationsDecorator -> org.sonar.plugins.design.batch.ProjectDsmDecorator@3729c576 -> FileTangleIndexDecorator -> f(lines) -> f(generated_lines) -> f(ncloc) -> f(generated_ncloc) -> f(classes) -> f(packages) -> f(functions) -> f(accessors) -> f(statements) -> f(public_api) -> f(comment_lines) -> f(comment_blank_lines) -> f(public_undocumented_api) -> f(commented_out_code_lines) -> f(complexity) -> f(complexity_in_classes) -> f(complexity_in_functions) -> f(class_complexity_distribution) -> f(function_complexity_distribution) -> f(file_complexity_distribution) -> f(lines_to_cover) -> f(uncovered_lines) -> f(conditions_to_cover) -> f(uncovered_conditions) -> f(it_lines_to_cover) -> f(it_uncovered_lines) -> f(it_conditions_to_cover) -> f(it_uncovered_conditions) -> f(overall_lines_to_cover) -> f(overall_uncovered_lines) -> f(overall_conditions_to_cover) -> f(overall_uncovered_conditions) -> f(rfc) -> f(rfc_distribution) -> f(lcom4_distribution) -> f(package_cycles) -> f(package_tangles) -> f(package_feedback_edges) -> f(package_edges_weight) -> f(cpp-parse-errors) -> f(new_lines_to_cover) -> f(new_uncovered_lines) -> f(new_conditions_to_cover) -> f(new_uncovered_conditions) -> f(new_it_lines_to_cover) -> f(new_it_uncovered_lines) -> f(new_it_conditions_to_cover) -> f(new_it_uncovered_conditions) -> f(new_overall_lines_to_cover) -> f(new_overall_uncovered_lines) -> f(new_overall_conditions_to_cover) -> f(new_overall_uncovered_conditions) -> org.sonar.batch.language.LanguageDistributionDecorator@52fec246 -> CommentDensityDecorator -> org.sonar.plugins.cpd.decorators.DuplicationDensityDecorator@3de624fd -> PackageTangleIndexDecorator -> f(file_complexity) -> f(class_complexity) -> f(function_complexity) -> org.sonar.plugins.core.sensors.CoverageDecorator@54b1beea -> org.sonar.plugins.core.sensors.LineCoverageDecorator@3a85d9d -> org.sonar.plugins.core.sensors.BranchCoverageDecorator@66c3c813 -> org.sonar.plugins.core.sensors.ItLineCoverageDecorator@303bbd02 -> org.sonar.plugins.core.sensors.ItCoverageDecorator@1c55237e -> org.sonar.plugins.core.sensors.ItBranchCoverageDecorator@3f8f80d3 -> org.sonar.plugins.core.sensors.OverallLineCoverageDecorator@37904d56 -> org.sonar.plugins.core.sensors.OverallCoverageDecorator@5a2e250b -> org.sonar.plugins.core.sensors.OverallBranchCoverageDecorator@6f55a3e3 -> Common Rules for c -> org.sonar.plugins.core.issue.IssueTrackingDecorator@388f2bca -> org.sonar.batch.debt.DebtDecorator@b61601d -> org.sonar.batch.debt.NewDebtDecorator@4ae48059 -> CountUnresolvedIssuesDecorator -> CountFalsePositivesDecorator -> org.sonar.batch.debt.SqaleRatingDecorator@321f5a46 -> SQALE measure decorator -> RatingFileDistributionBuilder -> SQALE Effort to rating decorator -> f(sqale_rating_file_distribution) -> org.sonar.plugins.core.timemachine.TendencyDecorator@5c5eec57 -> VariationDecorator
+17:59:06.608 DEBUG - Decorator time:
+	ManualMeasureDecorator: 4ms
+	QProfileEventsDecorator: 10ms
+	UnitTestDecorator: 1ms
+	org.sonar.plugins.core.security.ApplyProjectRolesDecorator@5b83e954: 3ms
+	org.sonar.plugins.core.sensors.DirectoriesDecorator@19503dfa: 4ms
+	org.sonar.plugins.core.sensors.FilesDecorator@32fd55a6: 0ms
+	org.sonar.plugins.core.timemachine.TimeMachineConfigurationPersister@58221710: 0ms
+	org.sonar.plugins.core.timemachine.NewCoverageAggregator@70f5a2a1: 0ms
+	SumDuplicationsDecorator: 0ms
+	org.sonar.plugins.design.batch.ProjectDsmDecorator@3729c576: 0ms
+	FileTangleIndexDecorator: 0ms
+	f(lines): 0ms
+	f(generated_lines): 1ms
+	f(ncloc): 1ms
+	f(generated_ncloc): 0ms
+	f(classes): 0ms
+	f(packages): 0ms
+	f(functions): 0ms
+	f(accessors): 0ms
+	f(statements): 0ms
+	f(public_api): 0ms
+	f(comment_lines): 0ms
+	f(comment_blank_lines): 0ms
+	f(public_undocumented_api): 0ms
+	f(commented_out_code_lines): 0ms
+	f(complexity): 0ms
+	f(complexity_in_classes): 0ms
+	f(complexity_in_functions): 1ms
+	f(class_complexity_distribution): 0ms
+	f(function_complexity_distribution): 3ms
+	f(file_complexity_distribution): 1ms
+	f(lines_to_cover): 0ms
+	f(uncovered_lines): 0ms
+	f(conditions_to_cover): 0ms
+	f(uncovered_conditions): 0ms
+	f(it_lines_to_cover): 0ms
+	f(it_uncovered_lines): 0ms
+	f(it_conditions_to_cover): 0ms
+	f(it_uncovered_conditions): 0ms
+	f(overall_lines_to_cover): 0ms
+	f(overall_uncovered_lines): 0ms
+	f(overall_conditions_to_cover): 0ms
+	f(overall_uncovered_conditions): 0ms
+	f(rfc): 0ms
+	f(rfc_distribution): 0ms
+	f(lcom4_distribution): 0ms
+	f(package_cycles): 0ms
+	f(package_tangles): 0ms
+	f(package_feedback_edges): 0ms
+	f(package_edges_weight): 0ms
+	f(cpp-parse-errors): 0ms
+	f(new_lines_to_cover): 0ms
+	f(new_uncovered_lines): 0ms
+	f(new_conditions_to_cover): 0ms
+	f(new_uncovered_conditions): 0ms
+	f(new_it_lines_to_cover): 0ms
+	f(new_it_uncovered_lines): 0ms
+	f(new_it_conditions_to_cover): 0ms
+	f(new_it_uncovered_conditions): 0ms
+	f(new_overall_lines_to_cover): 0ms
+	f(new_overall_uncovered_lines): 0ms
+	f(new_overall_conditions_to_cover): 0ms
+	f(new_overall_uncovered_conditions): 0ms
+	org.sonar.batch.language.LanguageDistributionDecorator@52fec246: 1ms
+	CommentDensityDecorator: 1ms
+	org.sonar.plugins.cpd.decorators.DuplicationDensityDecorator@3de624fd: 0ms
+	PackageTangleIndexDecorator: 0ms
+	f(file_complexity): 0ms
+	f(class_complexity): 0ms
+	f(function_complexity): 0ms
+	org.sonar.plugins.core.sensors.CoverageDecorator@54b1beea: 0ms
+	org.sonar.plugins.core.sensors.LineCoverageDecorator@3a85d9d: 0ms
+	org.sonar.plugins.core.sensors.BranchCoverageDecorator@66c3c813: 0ms
+	org.sonar.plugins.core.sensors.ItLineCoverageDecorator@303bbd02: 0ms
+	org.sonar.plugins.core.sensors.ItCoverageDecorator@1c55237e: 0ms
+	org.sonar.plugins.core.sensors.ItBranchCoverageDecorator@3f8f80d3: 1ms
+	org.sonar.plugins.core.sensors.OverallLineCoverageDecorator@37904d56: 0ms
+	org.sonar.plugins.core.sensors.OverallCoverageDecorator@5a2e250b: 0ms
+	org.sonar.plugins.core.sensors.OverallBranchCoverageDecorator@6f55a3e3: 0ms
+	Common Rules for c: 0ms
+	org.sonar.plugins.core.issue.IssueTrackingDecorator@388f2bca: 24ms
+	org.sonar.batch.debt.DebtDecorator@b61601d: 7ms
+	org.sonar.batch.debt.NewDebtDecorator@4ae48059: 1ms
+	CountUnresolvedIssuesDecorator: 7ms
+	CountFalsePositivesDecorator: 2ms
+	org.sonar.batch.debt.SqaleRatingDecorator@321f5a46: 3ms
+	SQALE measure decorator: 2ms
+	RatingFileDistributionBuilder: 0ms
+	SQALE Effort to rating decorator: 0ms
+	f(sqale_rating_file_distribution): 0ms
+	org.sonar.plugins.core.timemachine.TendencyDecorator@5c5eec57: 41ms
+	VariationDecorator: 0ms
+
+17:59:06.608 INFO  - Store results in database
+17:59:06.608 DEBUG - Execute org.sonar.batch.index.MeasurePersister
+17:59:06.687 DEBUG - Execute org.sonar.batch.index.DuplicationPersister
+17:59:06.688 DEBUG - Execute org.sonar.batch.index.ComponentDataPersister
+17:59:06.694 DEBUG - Execute org.sonar.batch.issue.IssuePersister
+17:59:06.710 DEBUG - Execute org.sonar.batch.phases.GraphPersister
+17:59:06.758 INFO  - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard/index/org.sonarqube:c-simple-sq-runner
+17:59:06.760 DEBUG - Evict preview database
+17:59:06.760 DEBUG - Download: http://localhost:9000/batch_bootstrap/evict?project=667 (no proxy)
+17:59:06.804 DEBUG - Post-jobs : org.sonar.plugins.dbcleaner.ProjectPurgePostJob@19b0707e -> org.sonar.plugins.core.issue.notification.SendIssueNotificationsPostJob@664ff641 -> org.sonar.plugins.core.batch.IndexProjectPostJob@6967bbf3 -> org.sonar.plugins.buildbreaker.AlertBreaker@17f5eaad -> org.sonar.plugins.buildbreaker.ForbiddenConfigurationBreaker@d5c4bad
+17:59:06.805 INFO  - Executing post-job class org.sonar.plugins.dbcleaner.ProjectPurgePostJob
+17:59:06.823 INFO  - -> Keep one snapshot per day between 2015-12-10 and 2016-01-06
+17:59:06.824 INFO  - -> Keep one snapshot per week between 2015-01-08 and 2015-12-10
+17:59:06.825 INFO  - -> Keep one snapshot per month between 2011-01-13 and 2015-01-08
+17:59:06.826 INFO  - -> Delete data prior to: 2011-01-13
+17:59:06.828 DEBUG - ==>  Preparing: select * from projects p where p.id=? 
+17:59:06.829 DEBUG - ==> Parameters: 667(Long)
+17:59:06.833 DEBUG - <==      Total: 1
+17:59:06.834 DEBUG - ==>  Preparing: select * from projects where scope='PRJ' and root_id=? 
+17:59:06.835 DEBUG - ==> Parameters: 667(Long)
+17:59:06.836 DEBUG - <==      Total: 0
+17:59:06.836 INFO  - -> Clean C :: Simple Project :: SonarQube Runner [id=667]
+17:59:06.854 INFO  - Executing post-job class org.sonar.plugins.core.issue.notification.SendIssueNotificationsPostJob
+17:59:06.864 INFO  - Executing post-job class org.sonar.plugins.core.batch.IndexProjectPostJob
+17:59:06.886 INFO  - Executing post-job class org.sonar.plugins.buildbreaker.AlertBreaker
+17:59:06.892 INFO  - Executing post-job class org.sonar.plugins.buildbreaker.ForbiddenConfigurationBreaker
+17:59:06.893 DEBUG - Release semaphore on project : org.sonar.api.resources.Project@12ce5274[id=667,key=org.sonarqube:c-simple-sq-runner,qualifier=TRK], with key batch-org.sonarqube:c-simple-sq-runner
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+Total time: 8.069s
+Final Memory: 22M/839M
+INFO: ------------------------------------------------------------------------

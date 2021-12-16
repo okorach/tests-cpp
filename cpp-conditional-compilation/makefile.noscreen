@@ -1,0 +1,21 @@
+CC=g++
+CFLAGS=-Wall
+
+SRCDIR   = src
+OBJDIR   = build
+DEVICE_OPTS = -DDEVICE_WITHOUT_SCREEN
+
+CPPSOURCES  := $(wildcard $(SRCDIR)/*.cpp)
+INCLUDES := $(wildcard $(SRCDIR)/*.h)
+CPPOBJECTS  := $(CPPSOURCES:$(SRCDIR)/%.cpp=$(OBJDIR)/%.o)
+
+all: clean $(CPPOBJECTS)
+	$(CC) $(CPPOBJECTS) -o $(OBJDIR)/app
+	chmod a+x $(OBJDIR)/app
+
+$(CPPOBJECTS): $(OBJDIR)/%.o : $(SRCDIR)/%.cpp
+	$(CC) $(CFLAGS) $(DEVICE_OPTS) -c $< -o $@
+
+clean:
+	rm -rf $(OBJDIR)
+	mkdir $(OBJDIR)

@@ -1,0 +1,32 @@
+using namespace std;
+
+#ifdef BRANCH1
+#include <stdlib.h>
+#endif
+
+int divide(int a, int b)
+{
+#ifdef BRANCH1
+   enum errcodes { ok = 0, division_by_zero = 3, null_pointer_deref, other_errors = 5 };
+   if (b == 0)
+   {
+      exit(division_by_zero); //FIXME: Handle error more gracefully
+   }
+   return a / b; 
+#else
+   if (b == 0) {
+      return 0; // FIXME: Returning 0 in that case is not good - Raise exception instead
+   } else {
+      return a / b;
+   }
+#endif
+}
+
+int main ()
+{
+   int x, y, z;
+   z = 10;
+   y = 2;
+   x = z*y;
+   return 0;
+}

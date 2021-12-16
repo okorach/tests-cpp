@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+    <error file="module1/src/BiggestUnInt.cpp" line="18" id="variableScope" severity="style" msg="The scope of the variable &apos;oldi&apos; can be reduced."/>
+    <error file="module1/src/BiggestUnInt.cpp" line="43" id="variableScope" severity="style" msg="The scope of the variable &apos;lastbit&apos; can be reduced."/>
+    <error file="module1/src/BiggestUnInt.cpp" line="44" id="variableScope" severity="style" msg="The scope of the variable &apos;two_to_power_i&apos; can be reduced."/>
+    <error file="module2/src/RandDemo.cpp" line="25" id="knownConditionTrueFalse" severity="style" msg="Condition &apos;N&lt;1&apos; is always true"/>
+    <error file="module2/src/SimpleClass.h" line="13" id="unusedPrivateFunction" severity="style" msg="Unused private function: &apos;Date::set&apos;"/>
+    <error file="module2/src/SimpleClass.cpp" line="36" id="unusedFunction" severity="style" msg="The function &apos;print&apos; is never used."/>
+    <error file="module2/src/SimpleClass.cpp" line="19" id="unusedFunction" severity="style" msg="The function &apos;set&apos; is never used."/>
+    <error id="missingIncludeSystem" severity="style" msg="Cppcheck cannot find all the include files (use --check-config for details)"/>
+</results>

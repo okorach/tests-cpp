@@ -1,0 +1,8 @@
+src/BiggestUnInt.cpp:21:7: warning: use of unary operator that may be intended as compound assignment (+=)
+  ZZZ =+ 2;
+      ^~
+1 warning generated.
+src/HelloWorld.cpp:10:6: warning: unused variable 'i' [-Wunused-variable]
+        int i = 0;
+            ^
+1 warning generated.
