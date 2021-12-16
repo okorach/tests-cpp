@@ -26,6 +26,18 @@ void f_print(char *p) {
    *p = 'a';
 }
 
+int * getPointer(int i)
+{
+   int *p = NULL;
+   if (i != 0) {
+      p = new int;
+      *p = i;
+      return p;
+   } else {
+      return NULL;
+   }
+}
+
 int main ()
 {
    char name[10];
@@ -39,4 +51,11 @@ int main ()
    f_print(name);
    f_print((char *)&joe);
    f_print(p);
+
+   int *q = getPointer(1);
+   *q = 2;
+
+   q = getPointer(0);
+   *q = 2;
 }
+
